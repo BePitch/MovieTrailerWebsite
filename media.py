@@ -1,10 +1,13 @@
 import webbrowser
 
+# Constructor that creates the instance variables that will
+# later be invoke when building each instance and passing through
+# open_movies_page.
+
 
 class Movie():
-    #Constructor that creates the instance variables that will
-    #later be invoke when building each instance and passing through
-    #open_movies_page
+    # This function creates space in memory that will be
+    # used for instance variables
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
